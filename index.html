@@ -1682,6 +1682,15 @@
       .logo img { height: 32px; }
       .footer-logo img { height: 32px; }
     }
+    
+    @media (max-width: 359px) {
+      .diagram-scale-wrapper { max-width: 288px; height: 276px; }
+      .diagram-scale-wrapper .stage {
+        transform: scale(0.58);
+        top: 8px;
+        left: calc(50% - 137px);
+      }
+    }
     :root{
     --bg: #012674;
     --bg2: #0B3B9E;
