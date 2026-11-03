@@ -1647,17 +1647,30 @@
         justify-content: center;
       }
 
+           .hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
       .diagram-scale-wrapper {
         width: 100%;
         max-width: 340px;
-        height: 318px;
+        height: 332px;
         margin: 0 auto;
       }
 
       .diagram-scale-wrapper .stage {
-        transform: scale(0.68);
+        transform: scale(0.72);
         top: 10px;
-        left: calc(50% - 160px);
+        left: calc(50% - 144px);
+      }
+
+      .diagram-scale-wrapper .stage .n-content {
+        left: 96px;
+      }
+
+      .diagram-scale-wrapper .stage .n-editorial,
+      .diagram-scale-wrapper .stage .n-website {
+        left: 274px;
       }
 
       .btn {
